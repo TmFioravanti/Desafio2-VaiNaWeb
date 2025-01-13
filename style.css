@@ -1,0 +1,133 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 4vw; 
+    background-color: #ffffff;
+}
+
+.logo {
+    font-size: 3vw; 
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 2vw; 
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+}
+
+.button {
+    padding: 1vh 2vw; 
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 0.5vw; 
+}
+
+.hero {
+    background-image: url('../Desafio2VNW/img/background.jpg');
+    background-size: cover;
+    height: 60vh; 
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    color: #fff;
+    font-size: 30px;
+}
+.hero-text{
+    margin-left: 10vw;
+    
+}
+
+.port-management {
+    display: flex;
+    padding: 4vh 6vw; 
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 50vw; 
+}
+
+.port-image {
+    background-color: #ddd;
+    width: 50vw; 
+    height: 30vh; 
+}
+
+.solutions {
+    text-align: center;
+    padding: 4vh 6vw;
+}
+
+.solution-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4vh; 
+}
+
+.card {
+    background-color: #f0f0f0;
+    padding: 2vh 3vw; 
+    width: 30vw; 
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 4vh 6vw; 
+    background-color: #f8f8f8;
+}
+
+.contact-form {
+    max-width: 40vw; 
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 2vh; 
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1vh; 
+    margin-top: 1vh; 
+}
+
+button {
+    margin-top: 2vh; 
+    padding: 1vh 2vw;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0.5vw; 
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 2vh 4vw; 
+    background-color: #333;
+    color: #fff;
+}
